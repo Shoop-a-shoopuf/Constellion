@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<h1>Nieuws</h1>
+
+    {% for post in site.posts %}
+       <h2>{{ post.title }}</h2>
+       {{ post.content }}
+    {% endfor %}
