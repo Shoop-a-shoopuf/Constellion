@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+body {
+    background-color: #294C60;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+ul {
+    list-style: upper-roman;
+    color: #ADB6C4;
+}
+a {
+    color: #FFEFD3;
+    text-decoration: none;
+    
+}
+a:visited {
+    color: #F5DEB6;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1 {
+    color: #ADB6C4;
+}
