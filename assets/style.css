@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 
 body {
+    
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e072e755-df2f-4cc2-a9bb-0be58f9fca78/df6xb39-6813ca6f-caee-4063-a117-beb31346d57c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2UwNzJlNzU1LWRmMmYtNGNjMi1hOWJiLTBiZTU4ZjlmY2E3OFwvZGY2eGIzOS02ODEzY2E2Zi1jYWVlLTQwNjMtYTExNy1iZWIzMTM0NmQ1N2MuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.XT1KIyAVM7z_wvVNTsdWC7p_PEJnHDmVL5aJz_-Skpg');
     background-color: #294C60;
     font-family: 'PT Sans Narrow', sans-serif;
 }
