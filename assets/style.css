@@ -1,26 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 
 body {
-    
-    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e072e755-df2f-4cc2-a9bb-0be58f9fca78/df6xb39-6813ca6f-caee-4063-a117-beb31346d57c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2UwNzJlNzU1LWRmMmYtNGNjMi1hOWJiLTBiZTU4ZjlmY2E3OFwvZGY2eGIzOS02ODEzY2E2Zi1jYWVlLTQwNjMtYTExNy1iZWIzMTM0NmQ1N2MuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.XT1KIyAVM7z_wvVNTsdWC7p_PEJnHDmVL5aJz_-Skpg');
-    background-color: #294C60;
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e072e755-df2f-4cc2-a9bb-0be58f9fca78/df6xb39-6813ca6f-caee-4063-a117-beb31346d57c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2UwNzJlNzU1LWRmMmYtNGNjMi1hOWJiLTBiZTU4ZjlmY2E3OFwvZGY2eGIzOS02ODEzY2E2Zi1jYWVlLTQwNjMtYTExNy1iZWIzMTM0NmQ1N2MuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.XT1KIyAVM7z_wvVNTsdWC7p_PEJnHDmVL5aJz_-Skpg");
+    background-size: 600px;
     font-family: 'PT Sans Narrow', sans-serif;
+    color: #ADB6C4;
+}
+.topnav {
+    background-color: #294C60;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.topnav a {
+    margin: 0; 
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 22px 32px;
+    text-decoration: none;
+    font-size: 22px;
+}
+.topnav a:hover {
+    background-color: #ADB6C4;
+    color: #001B2E
+}
+.navtitle {
+    margin: 0; 
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0px 32px;
+    text-decoration: none;
+    font-size: 22px;
 }
 ul {
-    list-style: upper-roman;
-    color: #ADB6C4;
+    list-style: none;
+    margin: 0px;
 }
 a {
     color: #FFEFD3;
     text-decoration: none;
     
 }
-a:visited {
-    color: #F5DEB6;
-}
 a:hover{
     text-decoration: underline;
 }
 h1 {
     color: #ADB6C4;
+}
+.border {
+    outline-color: white;
+    outline-width: 3px;
+}
+.background {
+    margin: auto;
+    margin-top: 30px;
+    height: 200px;
+    width: 1000px;
+    background: hsl(0, 100%, 100%, .1);
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.content{
+    margin-left: 15px;
 }
